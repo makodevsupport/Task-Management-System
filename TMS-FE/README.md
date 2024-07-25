@@ -14,9 +14,9 @@ Before installing npm packages, ensure that your Node.js version is 18 or above.
 
 To install all the necessary npm packages.
 
-### `Changes in .env file`
+### `Add .env file`
 
-Before running the application, add the necessary backend endpoint in the .env file with the following line:
+Before running the application, create an .env file in the root folder where package.json is located. Add the necessary backend endpoint to the .env file with the following line:
 
 `REACT_APP_API_URL="YOUR_ENDPOINT"` Replace YOUR_ENDPOINT with your actual backend URL.
 
