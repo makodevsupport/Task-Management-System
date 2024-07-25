@@ -42,6 +42,9 @@ Add database credentials in .env also add NOVA_LICENSE_KEY
 # Create NOVA user using below command
 ``` php artisan nova:user ```
 
+# Create NOVA user using below command
+Add the nova user email in RolesAndPermissionsSeeder then run seeder
+``` php artisan db:seed ```
 
 # Serve the application locally
 ```php artisan serve ```
